@@ -1,5 +1,5 @@
-export class App {
+export class Hello {
   constructor() {
-    this.message = 'Hello World!';
+    this.name = 'Külastaja';
   }
 }
