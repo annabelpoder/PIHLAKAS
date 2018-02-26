@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/PIHLAKAS-master.iml" filepath="$PROJECT_DIR$/.idea/PIHLAKAS-master.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/pihlakas/src/main/main.iml" filepath="$PROJECT_DIR$/pihlakas/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/pihlakas/src/test/test.iml" filepath="$PROJECT_DIR$/pihlakas/src/test/test.iml" />
+>>>>>>> branch 'master' of https://github.com/annabelpoder/PIHLAKAS.git
     </modules>
   </component>
 </project>
