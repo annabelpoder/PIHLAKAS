@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="78842034-2d41-4591-a0d8-1bcff9bf2039" name="Default" comment="" />
+=======
     <list default="true" id="a7085cfa-4a0c-4216-be05-acff3dd1c30a" name="Default" comment="" />
+>>>>>>> 3048cf1f2ebe267c85fe8018f411f832e8dbbb1c
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,10 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+<<<<<<< HEAD
       <file leaf-file-name="PIHLAKAS" pinned="false" current-in-tab="true">
         <entry file="https://github.com/annabelpoder/PIHLAKAS">
           <provider selected="true" editor-type-id="httpFileEditor">
             <state />
+=======
+      <file leaf-file-name="PihlakasApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pihlakas/src/main/java/com/example/pihlakas/PihlakasApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="300">
+=======
+            <state relative-caret-position="225">
+>>>>>>> 3048cf1f2ebe267c85fe8018f411f832e8dbbb1c
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+>>>>>>> 9ab3eedaaec26db3167583a82cafa7b00f8a332b
           </provider>
         </entry>
       </file>
@@ -36,10 +54,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1030" />
+=======
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="980" />
+>>>>>>> 3048cf1f2ebe267c85fe8018f411f832e8dbbb1c
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -57,7 +81,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+      <pane id="AndroidView" />
+=======
       <pane id="Scope" />
+>>>>>>> 3048cf1f2ebe267c85fe8018f411f832e8dbbb1c
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -65,25 +93,53 @@
               <item name="PIHLAKAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+            <path>
+              <item name="PIHLAKAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PIHLAKAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pihlakas" type="462c0819:PsiDirectoryNode" />
+            </path>
+=======
+>>>>>>> 3048cf1f2ebe267c85fe8018f411f832e8dbbb1c
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+=======
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+>>>>>>> 3048cf1f2ebe267c85fe8018f411f832e8dbbb1c
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$USER_HOME$/react-pihlakas" />
+=======
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$USER_HOME$/git/PIHLAKAS-master" />
   </component>
   <component name="RecentsManager">
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/annabelpoder/PIHLAKAS" />
     </key>
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/pihlakas-reactv1" />
+>>>>>>> 3048cf1f2ebe267c85fe8018f411f832e8dbbb1c
+>>>>>>> 9ab3eedaaec26db3167583a82cafa7b00f8a332b
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,6 +244,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="78842034-2d41-4591-a0d8-1bcff9bf2039" name="Default" comment="" />
+      <created>1519314336555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519314336555</updated>
+      <workItem from="1519314341912" duration="626000" />
+      <workItem from="1519315011766" duration="948000" />
+      <workItem from="1519373218945" duration="127000" />
+      <workItem from="1519668359405" duration="1285000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2986000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="950" y="0" width="980" height="1030" extended-state="0" />
+=======
       <changelist id="a7085cfa-4a0c-4216-be05-acff3dd1c30a" name="Default" comment="" />
       <created>1519318082332</created>
       <option name="number" value="Default" />
@@ -213,7 +288,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="20" width="1400" height="980" extended-state="0" />
+<<<<<<< HEAD
     <editor active="true" />
+=======
+>>>>>>> 3048cf1f2ebe267c85fe8018f411f832e8dbbb1c
+>>>>>>> 9ab3eedaaec26db3167583a82cafa7b00f8a332b
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -227,7 +306,15 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+<<<<<<< HEAD
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.393018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 3048cf1f2ebe267c85fe8018f411f832e8dbbb1c
+>>>>>>> 9ab3eedaaec26db3167583a82cafa7b00f8a332b
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -249,10 +336,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intellj" />
     <option name="LAST_COMMIT_MESSAGE" value="intellj" />
   </component>
+>>>>>>> 3048cf1f2ebe267c85fe8018f411f832e8dbbb1c
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -268,7 +358,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pihlakas/src/main/java/com/example/pihlakas/PihlakasApplication.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pihlakas/src/main/java/com/example/pihlakas/PihlakasApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pihlakas/src/main/java/com/example/pihlakas/PihlakasApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+=======
         <state relative-caret-position="225">
+>>>>>>> 3048cf1f2ebe267c85fe8018f411f832e8dbbb1c
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
