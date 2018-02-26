@@ -2,7 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$/pihlakas/PIHLAKAS" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/react" vcs="Git" />
+=======
+>>>>>>> branch 'master' of https://github.com/annabelpoder/PIHLAKAS.git
   </component>
 </project>
