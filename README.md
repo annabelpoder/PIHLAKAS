@@ -37,7 +37,7 @@ Esialgne projektiplaan:
     - Sõbralist
     - Foorum
     
-  Täpsustatud projektiplaan:
+    Täpsustatud projektiplaan:
     1.Iteratsioon:
       - Uus mäng (Index.html)
            i. 	Mängija nimi
