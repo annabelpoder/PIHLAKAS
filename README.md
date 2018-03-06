@@ -56,9 +56,11 @@ Esialgne projektiplaan:
             ii.	Mängul on pargi nimetus, kuupäev
             iii.	Radade list tuleneb mängust(raja nr, visked, punktid)
             iv.	Punkte kokku
-
-
-
-
-
-
+            
+     2. Iteratsioon:
+       - 
+       -
+       -
+       -
+       -
+       -
