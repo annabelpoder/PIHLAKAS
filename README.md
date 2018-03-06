@@ -39,25 +39,25 @@ Esialgne projektiplaan:
     
 Täpsustatud projektiplaan:
   1.Iteratsioon:
-    a.	Uus mäng (Index.html)
+    - Uus mäng (Index.html)
          i. 	Mängija nimi
          ii.	Disc golfi parkide list rippmenüü 
          iii.	Radade list rippmenüü (Oleneb disc golfi parkide listist)
          iv.	Nupp (Viib game.html lehele)
   
 
-b.	Mäng (game.html)
-i.	Raja nimetus (Korv)
-ii.	Mängija nimi
-iii.	Visete arv (+/-)
-iv.	Punktid
-c.	Mängureeglid (gamerules.html)
-i.	Mängureeglid
-d.	Mängude ajalugu (gameshistory.html)
-i.	Mängude list (ajalugu)
-ii.	Mängul on pargi nimetus, kuupäev
-iii.	Radade list tuleneb mängust(raja nr, visked, punktid)
-iv.	Punkte kokku
+    - Mäng (game.html)
+          i.	Raja nimetus (Korv)
+          ii.	Mängija nimi
+          iii.	Visete arv (+/-)
+          iv.	Punktid
+          c.	Mängureeglid (gamerules.html)
+          i.	Mängureeglid
+          d.	Mängude ajalugu (gameshistory.html)
+          i.	Mängude list (ajalugu)
+          ii.	Mängul on pargi nimetus, kuupäev
+          iii.	Radade list tuleneb mängust(raja nr, visked, punktid)
+          iv.	Punkte kokku
 
 
 
