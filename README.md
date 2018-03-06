@@ -21,21 +21,21 @@ Tiimiprojekti teema: "Discgolfi mängude haldamine"
 
 Esialgne projektiplaan:
   1. Iteratsioon:
-    a. Punktide loendamine
-    c. Mängureeglid
-    d. Uus mäng/ Rada valik
-    e. Mängude ajalugu
-    f. Sisselogimine
+    - Punktide loendamine
+    - Mängureeglid
+    - Uus mäng/ Rada valik
+    - Mängude ajalugu
+    - Sisselogimine
    
   2. Iteratsioon:
-    a. Radade kaardid
-    b. Edetabel
-    c. Mängijad
-    d. Achievements
+    - Radade kaardid
+    - Edetabel
+    - Mängijad
+    - Achievements
     
   3. Iteratsioon
-    a. Sõbralist
-    b. Foorum
+    - Sõbralist
+    - Foorum
     
 
 
