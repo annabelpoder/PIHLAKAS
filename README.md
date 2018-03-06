@@ -58,9 +58,11 @@ Esialgne projektiplaan:
             iv.	Punkte kokku
             
      2. Iteratsioon:
+       - Radade kaardid
+       - Edetabel
+       - SASSI kasutamine kasutajaliidese arendamiseks
+       - Sisselogimine
+       - Andmebaasiga ühendamine
+       - Põhifookus on funktsionaalsus
        - 
-       -
-       -
-       -
-       -
-       -
+
