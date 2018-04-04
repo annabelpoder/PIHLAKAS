@@ -1,6 +1,8 @@
 # PIHLAKAD
-React project asub järgmises Github'i repository's:
+# React project asub järgmises Github'i repository's:
 https://github.com/EllenLo/teamPIHLAKAS.git
+# Springboot asub järgmises Github'i repository's:
+https://github.com/EllenLo/pihlakas-spring/tree/master
 
 Tiiminimi: Pihlakas
 
