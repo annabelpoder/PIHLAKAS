@@ -1,12 +1,18 @@
 package com.example.pihlakasspring;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 public class PihlakasSpringApplication {
 
+	private static final Logger log = LoggerFactory.getLogger(SpringBootApplication.class);
 	public static void main(String[] args) {
-		SpringApplication.run(PihlakasSpringApplication.class, args);
+		RestTemplate restTemplate = new RestTemplate();
+		Quote quote = restTemplate.getForObject("http://gturnquist-quoters.cfapps.io/api/random", Quote.class);
+		log.info(quote.toString());
 	}
 }
