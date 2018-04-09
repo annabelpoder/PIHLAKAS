@@ -1,12 +1,20 @@
 buildscript {
 	ext {
 		springBootVersion = '2.0.0.RELEASE'
+        vaadinVersion = '8.3.1'
 	}
 	repositories {
 		mavenCentral()
 	}
 	dependencies {
-		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        compile('org.springframework.boot:spring-boot-starter-actuator')
+        compile('org.springframework.boot:spring-boot-starter-data-jpa')
+        compile('org.springframework.boot:spring-boot-starter-data-rest')
+        compile('org.springframework.boot:spring-boot-starter-thymeleaf')
+        compile('org.springframework.boot:spring-boot-starter-web')
+        compile('com.vaadin:vaadin-spring-boot-starter')
+        compile('org.mariadb.jdbc:mariadb-java-client:1.5.8')
+        testCompile('org.springframework.boot:spring-boot-starter-test')
 	}
 }
 
@@ -25,25 +33,6 @@ group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
-repositories {
-	mavenCentral()
-}
-
-
-ext {
-	vaadinVersion = '8.3.1'
-}
-
-dependencies {
-	compile('org.springframework.boot:spring-boot-starter-actuator')
-	compile('org.springframework.boot:spring-boot-starter-data-jpa')
-	compile('org.springframework.boot:spring-boot-starter-data-rest')
-	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
-	 compile('org.springframework.boot:spring-boot-starter-web')
-	compile('com.vaadin:vaadin-spring-boot-starter')
-	compile('org.mariadb.jdbc:mariadb-java-client:1.5.8')
-	testCompile('org.springframework.boot:spring-boot-starter-test')
-}
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
