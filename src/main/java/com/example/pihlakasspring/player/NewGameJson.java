@@ -1,4 +1,4 @@
-package com.example.pihlakasspring.player;
+/*package com.example.pihlakasspring.player;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -17,3 +17,4 @@ public class NewGameJson {
     private String firstName;
     private Long trackId;
 }
+*/

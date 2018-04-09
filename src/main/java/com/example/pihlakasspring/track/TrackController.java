@@ -6,22 +6,21 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("index")
+@RequestMapping("/track")
 public class TrackController {
-    @Autowired
-    private TrackAdd trackAdd;
+    private final TrackAdd trackAdd;
 
-    @PostMapping("new")
+    @Autowired
+    public TrackController(TrackAdd trackAdd) {
+        this.trackAdd = trackAdd;
+    }
+
+    @PostMapping("/new")
     public void createNewTrack(@RequestBody NewTrackJson json){trackAdd.insert(json);}
 
-    @GetMapping("all")
+    @GetMapping("/all")
     public List<Track> findAllTracks(){return trackAdd.findAllTracks();}
 
-    @GetMapping("available")
+    @GetMapping("/available")
     public List<Track> findAvailableTracks(){return trackAdd.findAvailableTracks();}
-
-    @PostMapping("{trackId/deactivate}")
-    public void findAvailableTracks(@PathVariable Long trackId) {
-        trackAdd.updateAvailability(trackId, false);
-    }
     }
