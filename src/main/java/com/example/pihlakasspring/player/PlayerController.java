@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-@RequestMapping(path="/demo")
+@RequestMapping(path="/")
 public class PlayerController {
     @Autowired
     private PlayerRepository playerRepository;
