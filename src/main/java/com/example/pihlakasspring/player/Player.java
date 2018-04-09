@@ -2,6 +2,7 @@ package com.example.pihlakasspring.player;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 
@@ -15,9 +16,8 @@ import lombok.Setter;
 public class Player {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy=GenerationType.AUTO)
     long id;
     String firstName;
-    String parkName;
-
+    String email;
 }
