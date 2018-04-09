@@ -43,6 +43,7 @@ dependencies {
 	compile('com.vaadin:vaadin-spring-boot-starter')
 	compile('org.mariadb.jdbc:mariadb-java-client:1.7.3')
 	compileOnly('org.projectlombok:lombok')
+	compile ('javax.xml.bind:jaxb-api:2.3.0')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
