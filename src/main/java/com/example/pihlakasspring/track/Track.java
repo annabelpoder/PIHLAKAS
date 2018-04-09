@@ -1,5 +1,11 @@
 package com.example.pihlakasspring.track;
 
+import jdk.nashorn.internal.objects.annotations.Getter;
+import jdk.nashorn.internal.objects.annotations.Setter;
+
+import javax.persistence.Entity;
+
+@Entity
 public class Track
 {
     private Long id;
