@@ -17,13 +17,5 @@ public class Track
     @GeneratedValue
     Long id;
     String name;
-    Boolean available;
-
-
-    public boolean isAvailable(){
-        return available;
-    }
-    void setAvailable(boolean available){
-        this.available = available;
-    }
+    boolean available = false;
 }
