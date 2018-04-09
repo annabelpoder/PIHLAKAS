@@ -6,18 +6,19 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
+@Data
 @Entity
 @Getter
 @Setter
 
 public class Player {
-
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
-    long id;
+    @GeneratedValue
+    Long id;
     String firstName;
     String email;
 }
