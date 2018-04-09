@@ -17,5 +17,5 @@ public class Track
     @GeneratedValue
     Long id;
     String name;
-    boolean available = false;
+    boolean available = true;
 }

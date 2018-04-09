@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("tracks")
+@RequestMapping("index")
 public class TrackController {
     @Autowired
     private TrackAdd trackAdd;

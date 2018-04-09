@@ -1,23 +1,19 @@
 package com.example.pihlakasspring.player;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-
-import lombok.Getter;
-import lombok.Setter;
-
-@Entity
 @Getter
 @Setter
-
-public class Player {
+@Entity
+public class NewGameJson {
 
     @Id
     @GeneratedValue
-    long id;
-    String firstName;
-    String parkName;
-
+    private String firstName;
+    private Long trackId;
 }
