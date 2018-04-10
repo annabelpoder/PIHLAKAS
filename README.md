@@ -67,20 +67,6 @@ Esialgne projektiplaan:
        - Andmebaasiga ühendamine
        - Põhifookus on funktsionaalsus
        - 
-       
-# Retrospektiiv
-
-  Less: Front-end. Disain on praegu kaugel ideaalist AGA enne oleks vaja funktsionaalsus korda saada, et midagi järgmine kord näidata oleks. 
-  
-  More: back-end. Peamine fookus MVP'l. Keskendume rohkem springboot'ile ja andmebaasiga ühendamisele. Peaks looma kindlama ettekujutuse sellest, milline leht reaalselt välja peaks nägema, see lihtsustaks tööd. 
-  
-  Keep: Jätkame kokku saamist, et projekti arendada. Koos töötamine tuleb  meil hästi välja ning motiveerib.  
-  
-  Start: Kolime Reactist IntelliJ'sse. Ühtlustame committide hulka. Koos arendame funktsionaalsust. 
-  
-  Stop: !!!Procrastinating!!! 
-  
-  NB! Esimeses iteratsioonis oli ajaplaneering väga paigast ära, teises iteratsioonis on see prioriteet. 
 
 
 
