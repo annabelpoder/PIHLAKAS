@@ -20,4 +20,12 @@ public class Player {
     Long id;
     String firstName;
     String email;
+
+    private Player(){}
+
+    public Player(Long id, String firstName, String email){
+        this.id = id;
+        this.firstName = firstName;
+        this.email = email;
+    }
 }
