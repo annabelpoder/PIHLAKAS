@@ -21,17 +21,13 @@ public class Player {
     String trackName;
     double shotsNr;
     double points;
-    long id;
 
     Player(){}
 
-    public Player(long id, String firstName, String trackName, double shotsNr, double points) {
+    public Player(String firstName, String trackName, double shotsNr, double points) {
         this.firstName = firstName;
         this.trackName = trackName;
         this.shotsNr = shotsNr;
         this.points = points;
-    }
-
-    public Player(long l, String ellen, String nõmme_seikluspark, int i, int i1) {
     }
 }
