@@ -16,6 +16,6 @@ public class Track
     @Id
     @GeneratedValue
     Long id;
-    String name;
+    String trackName;
     boolean available = true;
 }

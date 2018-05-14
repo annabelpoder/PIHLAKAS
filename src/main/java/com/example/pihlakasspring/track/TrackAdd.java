@@ -47,7 +47,7 @@ public class TrackAdd {
         public Track mapRow (ResultSet rs, int rowNum) throws SQLException{
             Track track = new Track();
             track.setId(rs.getLong("id"));
-            track.setName(rs.getString("name"));
+            track.setTrackName(rs.getString("name"));
             track.setAvailable(rs.getBoolean("available"));
             return track;
         }

@@ -19,13 +19,17 @@ public class Player {
     @GeneratedValue
     Long id;
     String firstName;
-    String email;
+    String trackName;
+    double shotsNr;
+    double points;
 
     Player(){}
 
-    public Player(Long id, String firstName, String email){
+    public Player(Long id, String firstName, String trackName, double shotsNr, double points) {
         this.id = id;
         this.firstName = firstName;
-        this.email = email;
+        this.trackName = trackName;
+        this.shotsNr = shotsNr;
+        this.points = points;
     }
 }
