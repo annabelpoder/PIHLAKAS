@@ -8,6 +8,35 @@
     <packaging>jar</packaging>
     <version>0.1.0</version>
 
+    <excetuions>
+        <execution>
+            <id>install node and npm</id>
+            <goals>
+                <goal>install-node-and-npm</goal>
+            </goals>
+            <configuration>
+                <nodeVersion>v4.4.5</nodeVersion>
+                <npmVersion>3.9.2</npmVersion>
+            </configuration>
+        </execution>
+        <execution>
+            <id>npm install</id>
+            <goals>
+                <goal>npm</goal>
+            </goals>
+            <configuration>
+                <arguments>install</arguments>
+            </configuration>
+        </execution>
+        <execution>
+            <id>webpack build</id>
+            <goals>
+                <goal>webpack</goal>
+            </goals>
+        </execution>
+    </excetuions>
+
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>

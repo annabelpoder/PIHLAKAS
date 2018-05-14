@@ -21,7 +21,7 @@ public class Player {
     String firstName;
     String email;
 
-    private Player(){}
+    Player(){}
 
     public Player(Long id, String firstName, String email){
         this.id = id;
