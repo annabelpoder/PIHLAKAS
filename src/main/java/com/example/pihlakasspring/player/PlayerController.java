@@ -12,10 +12,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class PlayerController {
     @Autowired
     private PlayerRepository playerRepository;
+    private Long id;
 
     @GetMapping(path="/add")
     public @ResponseBody String addNewPlayer (@RequestParam String firstName, @RequestParam String trackName, @RequestParam double shotsNr, @RequestParam double points){
         Player n = new Player();
+        n.setId(id);
         n.setFirstName(firstName);
         n.setPoints(points);
         n.setShotsNr(shotsNr);

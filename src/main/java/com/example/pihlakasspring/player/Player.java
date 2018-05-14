@@ -17,6 +17,7 @@ import lombok.Setter;
 public class Player {
     @Id
     @GeneratedValue
+    Long id;
     String firstName;
     String trackName;
     double shotsNr;
@@ -24,7 +25,8 @@ public class Player {
 
     Player(){}
 
-    public Player(String firstName, String trackName, double shotsNr, double points) {
+    public Player(Long id, String firstName, String trackName, double shotsNr, double points) {
+        this.id = id;
         this.firstName = firstName;
         this.trackName = trackName;
         this.shotsNr = shotsNr;
