@@ -43,30 +43,31 @@ public class Player {
         this.trackName = trackName;
     }
 
-    public double getShotsNr() {
+    public String getShotsNr() {
         return shotsNr;
     }
 
-    public void setShotsNr(double shotsNr) {
+    public void setShotsNr(String shotsNr) {
         this.shotsNr = shotsNr;
     }
 
-    public double getPoints() {
+    public String getPoints() {
         return points;
     }
 
-    public void setPoints(double points) {
+    public void setPoints(String points) {
         this.points = points;
     }
 
     String firstName;
     String trackName;
-    double shotsNr;
-    double points;
+    String shotsNr;
+    String points;
 
     Player(){}
 
-    public Player(Long id, String firstName, String trackName, double shotsNr, double points) {
+    public Player(Long id, String firstName, String trackName,
+                  String shotsNr, String points) {
         this.id = id;
         this.firstName = firstName;
         this.trackName = trackName;

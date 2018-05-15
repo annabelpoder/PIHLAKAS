@@ -18,6 +18,6 @@ public class DatabaseLoader implements CommandLineRunner {
 
     @Override
     public void run(String...strings){
-        this.repository.save(new Player((long) 1, "Ellen", "Nõmme seikluspark", 12, 1));
+        this.repository.save(new Player((long) 1, "Ellen", "Nõmme seikluspark", "12", "1"));
     }
 }
